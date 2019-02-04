@@ -1,13 +1,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
-import { Mutation } from 'react-apollo';
-import { loginMutation } from '../graphql/user/mutations/login';
-import {
-  LoginVariables,
-  LoginMutation,
-  LoginComponent,
-} from '../generated/apolloComponents';
+import { LoginComponent } from '../generated/apolloComponents';
 
 const IndexPage: React.FunctionComponent = () => {
   return (
